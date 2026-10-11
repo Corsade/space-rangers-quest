@@ -114,6 +114,14 @@ export class Store {
   @computed
   get path() {
     const arr = this._hash.split("/");
+    // Built-in catalog names are literal strings; userquest decodes its own fields.
+    if (arr[0] === "quests" && arr[1]) {
+      try {
+        arr[1] = decodeURIComponent(arr[1]);
+      } catch {
+        // Keep malformed links unmatched rather than breaking the whole application.
+      }
+    }
     return {
       tab0: arr[0],
       tab1: arr[1],
