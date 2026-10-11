@@ -65,6 +65,8 @@ const config = (env, argv) => {
       new ServiceWorkerWebpackPlugin({
         entry: "./src/ui/serviceWorker.ts",
         filename: "sw.js",
+        publicPath: "",
+        excludes: ["**/.*", "**/*.map", "data/**"],
       }),
     ],
 

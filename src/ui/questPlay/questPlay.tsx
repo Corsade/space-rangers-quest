@@ -576,7 +576,7 @@ export function QuestPlay({
         style={{
           height: "100vh",
           position: "relative",
-          backgroundImage: "url('/questplay/background.jpg')",
+          backgroundImage: "url('questplay/background.jpg')",
           backgroundSize: "cover",
           display: "flex",
           justifyContent: "center",
@@ -756,7 +756,7 @@ export function QuestPlay({
     <div
       style={{
         minHeight: "100vh",
-        backgroundImage: "url('/questplay/background.jpg')",
+        backgroundImage: "url('questplay/background.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "70% 0px",
       }}

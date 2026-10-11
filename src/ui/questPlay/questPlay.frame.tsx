@@ -44,7 +44,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           top: 0,
           width: frameWidth,
           height: frameHeight * 3,
-          backgroundImage: "url('/questplay/frame-left-top.png')",
+          backgroundImage: "url('questplay/frame-left-top.png')",
           backgroundSize,
         }}
       />
@@ -55,7 +55,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           top: 0,
           width: frameWidth * 2,
           height: frameHeight,
-          backgroundImage: "url('/questplay/frame-left-top-2.png')",
+          backgroundImage: "url('questplay/frame-left-top-2.png')",
           backgroundSize,
         }}
       />
@@ -67,7 +67,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           right: frameWidth * 3,
           top: 0,
           height: frameHeight,
-          backgroundImage: "url('/questplay/frame-top.png')",
+          backgroundImage: "url('questplay/frame-top.png')",
           backgroundSize,
         }}
       />
@@ -79,7 +79,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           top: 0,
           width: frameWidth * 2,
           height: frameHeight,
-          backgroundImage: "url('/questplay/frame-right-top-2.png')",
+          backgroundImage: "url('questplay/frame-right-top-2.png')",
           backgroundSize,
         }}
       />
@@ -91,7 +91,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           top: 0,
           width: frameWidth,
           height: frameHeight * 3,
-          backgroundImage: "url('/questplay/frame-right-top.png')",
+          backgroundImage: "url('questplay/frame-right-top.png')",
           backgroundSize,
         }}
       />
@@ -103,7 +103,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           top: frameHeight * 3,
           bottom: frameHeight * 3,
           width: frameWidth,
-          backgroundImage: "url('/questplay/frame-left.png')",
+          backgroundImage: "url('questplay/frame-left.png')",
           backgroundSize,
         }}
       />
@@ -115,7 +115,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           top: frameHeight * 3,
           bottom: frameHeight * 3,
           width: frameWidth,
-          backgroundImage: "url('/questplay/frame-right.png')",
+          backgroundImage: "url('questplay/frame-right.png')",
           backgroundSize,
         }}
       />
@@ -127,7 +127,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           bottom: 0,
           width: frameWidth,
           height: frameHeight * 3,
-          backgroundImage: "url('/questplay/frame-left-bottom.png')",
+          backgroundImage: "url('questplay/frame-left-bottom.png')",
           backgroundSize,
         }}
       />
@@ -138,7 +138,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           bottom: 0,
           width: frameWidth * 2,
           height: frameHeight,
-          backgroundImage: "url('/questplay/frame-left-bottom-2.png')",
+          backgroundImage: "url('questplay/frame-left-bottom-2.png')",
           backgroundSize,
         }}
       />
@@ -150,7 +150,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           right: frameWidth * 3,
           bottom: 0,
           height: frameHeight,
-          backgroundImage: "url('/questplay/frame-bottom.png')",
+          backgroundImage: "url('questplay/frame-bottom.png')",
           backgroundSize,
         }}
       />
@@ -162,7 +162,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           bottom: 0,
           width: frameWidth * 2,
           height: frameHeight,
-          backgroundImage: "url('/questplay/frame-right-bottom-2.png')",
+          backgroundImage: "url('questplay/frame-right-bottom-2.png')",
           backgroundSize,
         }}
       />
@@ -174,7 +174,7 @@ const QuestPlayFrameTiles = ({ frameBorderX, frameBorderY }: FrameBorderProps) =
           bottom: 0,
           width: frameWidth,
           height: frameHeight * 3,
-          backgroundImage: "url('/questplay/frame-right-bottom.png')",
+          backgroundImage: "url('questplay/frame-right-bottom.png')",
           backgroundSize,
         }}
       />

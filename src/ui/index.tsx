@@ -124,7 +124,7 @@ class MainLoader extends React.Component<{}> {
           } else {
             debug(`Service worker do not have old registration, will register now`);
           }
-          const reg = registrationOld || (await navigator.serviceWorker.register("/sw.js"));
+          const reg = registrationOld || (await navigator.serviceWorker.register("sw.js"));
           store.serviceWorkerRegistered = true;
 
           function updateStore() {

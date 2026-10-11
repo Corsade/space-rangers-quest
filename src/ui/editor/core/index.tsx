@@ -764,15 +764,15 @@ export function EditorCore({
                 position: "absolute",
                 cursor:
                   mouseMode === "newLocation"
-                    ? "url('/fontawesome_cursors/circle.svg') 12 12, crosshair"
+                    ? "url('fontawesome_cursors/circle.svg') 12 12, crosshair"
                     : mouseMode === "select" || !hoverZone
                     ? "default"
                     : mouseMode === "move"
                     ? "move"
                     : mouseMode === "newJump"
-                    ? "url('/fontawesome_cursors/arrow-right.svg') 12 12, e-resize"
+                    ? "url('fontawesome_cursors/arrow-right.svg') 12 12, e-resize"
                     : mouseMode === "remove"
-                    ? "url('/fontawesome_cursors/remove.svg') 12 12, not-allowed"
+                    ? "url('fontawesome_cursors/remove.svg') 12 12, not-allowed"
                     : assertNever(mouseMode),
               }}
               width={canvasSize.width}

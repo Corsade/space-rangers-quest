@@ -1,5 +1,28 @@
 # Онлайн плеер квестов из Космических рейнджеров
 
+## Эта копия: GitHub Pages
+
+[Играть](https://corsade.github.io/space-rangers-quest/#/quests)
+
+- Форк исходного плеера; автоматическая сборка и публикация из `master` через `.github/workflows/pages.yml`.
+- В `src/webstatic/data/` сохранён полный публичный каталог https://spacerangers.gitlab.io/data/index.json: 149 квестов (114 русских, 35 английских), 659 изображений, 21 звук и 29 музыкальных треков. Сборка не скачивает их с исходного сайта.
+- MIT-лицензия относится к коду плеера; заимствованные игровые материалы не перелицензированы и сохраняют права своих авторов. Исходный проект и данные: https://gitlab.com/spacerangers/spacerangers.gitlab.io.
+- Сохранения остаются в браузере. Облачная авторизация, синхронизация и таблицы лидеров — внешний Firebase исходного проекта, не перенесённый личный сервер.
+- Исправлены абсолютные пути интерфейса и service worker для размещения в подпапке. Удалена сторонняя аналитика.
+
+Локальная проверка и сборка (Node.js 22, Python 3.9+):
+
+```sh
+npm ci --legacy-peer-deps --no-audit --no-fund
+python3 scripts/check-data.py
+npm test
+NODE_OPTIONS=--openssl-legacy-provider npm run build
+python3 -m http.server 4099 --directory built-web
+```
+
+Открыть http://localhost:4099/#/quests. Проверка данных также подготавливает `borrowed/qm/Online/` для существующих тестов; эти производные файлы не коммитятся.
+
+
 [Играть можно тут](https://spacerangers.gitlab.io)
 
 Если не открывается то попробуйте через VPN.

@@ -25,10 +25,10 @@ const CACHE_ENGINE_NAME = `${CACHE_ENGINE_PREFIX}-${__VERSION__}`;
 const CACHE_QUESTS_NAME = "spacerangers-quests";
 
 const engineUrls = [
-  "/",
+  "./",
   INDEX_JSON,
   ...serviceWorkerOption.assets,
-  `/?version=${new Date(__VERSION__).getTime()}`, // to enforce a reinstall after rebuild
+  `./?version=${new Date(__VERSION__).getTime()}`, // to enforce a reinstall after rebuild
 ];
 
 function debug(...args: any[]) {
